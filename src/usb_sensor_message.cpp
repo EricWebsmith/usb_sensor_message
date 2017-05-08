@@ -157,7 +157,7 @@ int main(int argc, char** argv) {
 			//cout << data.timestamp << endl;
 			//fullGap(&message);
 			out_pub.publish(message);
-			ROS_INFO("%s", "send an imu message");
+			ROS_INFO("%s", "sent an imu message");
 			ros::spinOnce();
 		}
 		last_sample_count = n_sample;

@@ -1,6 +1,8 @@
 # Read Me
 
-put FindHIDAPI.cmake to /your_workspace/src/cmake_modules/cmake/Modules
+This project read IMU data from the usb port and generates ROS IMU messages. HIDAPI is used to fetch data.
+
+To use HIDAPI, put FindHIDAPI.cmake to /your_workspace/src/cmake_modules/cmake/Modules
 
 ## commands:
 
